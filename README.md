@@ -45,6 +45,7 @@ usage: pcomfortcloud.py username password set [-h]
                                              [-f, --fanspeed {Auto,Low,LowMid,Mid,HighMid,High}]
                                              [-m, --mode {Auto,Cool,Dry,Heat,Fan}]
                                              [-e, --eco {Auto,Quiet,Powerful}]
+                                             [-n  --nanoe {On,Off,ModeG,All}]
                                              [-y, --airswingvertical {Auto,Down,DownMid,Mid,UpMid,Up}]
                                              [-x, --airswinghorizontal {Auto,Left,LeftMid,Mid,RightMid,Right}]
                                              device
@@ -65,6 +66,8 @@ optional arguments:
                         Operation mode
   -e, --eco {Auto,Quiet,Powerful}
                         Eco mode
+  -n  --nanoe {On,Off,ModeG,All}
+                        Nanoe mode. nanoe-G - only when supported by device
   -y, --airswingvertical {Auto,Down,DownMid,Mid,UpMid,Up}
                         Vertical position of the air swing
   -x, --airswinghorizontal {Auto,Left,LeftMid,Mid,RightMid,Right}
